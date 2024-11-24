@@ -1,0 +1,70 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+.footer{
+    height: 150px;
+    width: 100%;
+    background-color: #555367;
+    display: flex;
+}
+.footer-logo{
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    left: 100px;
+}
+
+.footer-text {
+    position: absolute;
+    font-weight: bold;
+    font-size: 16pt;
+    left: 460px;
+}
+
+.address {
+    position: relative;
+    bottom: 40px;
+}
+.personal-info {
+    position: absolute;
+    bottom: 2px;
+}
+.footer-text-divider-1{
+    position: absolute;
+    bottom: 5px;
+    left: 165px;
+    width: 3px;
+    height: 20px;
+    background-color: #fff;
+}
+.footer-text-divider-2{
+    position: absolute;
+    bottom: 5px;
+    left: 490px;
+    width: 3px;
+    height: 20px;
+    background-color: #fff;
+}
+.vidio-manage {
+    position: absolute;
+    bottom: 2px;
+    left: 185px;
+}
+
+.email-refuse {
+    position: absolute;
+    left: 510px;
+    bottom: 2px;
+    white-space: nowrap;
+}
+
+.CopyRight {
+    position: absolute;
+    top: 35px;
+}
+
+.contact-info {
+    position: absolute;
+    right: -270px;
+    bottom: 5px;
+    line-height: 30px;
+}

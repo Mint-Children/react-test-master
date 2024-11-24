@@ -5,6 +5,7 @@ import NewsSection from "./components/NewsSection";
 import NoticeBoard from "./components/NoticeBoard";
 import Schedule from "./components/Schedule";
 import "./App.css";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <NoticeBoard />
         <Schedule />
       </main>
+      <Footer />
     </div>
   );
 }
