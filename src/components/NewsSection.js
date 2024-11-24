@@ -1,5 +1,5 @@
 import React from "react";
-import "./NewsSection.css";
+import "../styles/NewsSection.css";
 import mandoImage from "../assets/mando.png";
 
 const newsData = [

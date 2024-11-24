@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./NoticeBoard.css";
+import "../styles/NoticeBoard.css";
 
 const tabData = {
   학사공지: [

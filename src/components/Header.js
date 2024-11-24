@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Header.css";
+import "../styles/Header.css";
 import instarLogo from '../assets/instar.png';
 import outsideLink from '../assets/OutsideLink.png';
 import halla_logo from '../assets/Halla_logo.png'

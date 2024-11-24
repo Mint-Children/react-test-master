@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Schedule.css";
+import "../styles/Schedule.css";
 
 const scheduleData = [
   { date: "2024-11-12", title: "IT소프트웨어 학과 겨울학기 수강신청" },
