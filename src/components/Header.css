@@ -1,0 +1,315 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+/* 공통 스타일 */
+body {
+    font-family: 'Pretendard', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 헤더 스타일 */
+.header {
+    width: 100%;
+    max-width: 1920px;
+    height: 123px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 2px solid #e0e0e0;
+    padding: 0 45px;
+    box-sizing: border-box;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.logo,
+.department {
+    width: 14vw;
+    height: 80px;
+}
+
+/* 네비게이션 스타일 */
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+    margin-top: 20px;
+}
+
+.nav-links {
+    position: relative;
+    display: flex;
+    gap: 65px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    left: 100px;
+}
+
+.nav-links li {
+    position: relative;
+    font-weight: bold;
+    font-size: 24px; /* 필요 시 글자 크기 조정 */
+    color: #3E3666;
+    cursor: pointer;
+    transition: color 0.3s;
+    white-space: nowrap; /* 텍스트를 한 줄로 유지 */
+}
+
+.nav-links li:hover {
+    color: #00458a;
+}
+
+/* 액션 버튼 스타일 */
+.nav-actions {
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+    font-size: 1.2rem;
+    color: #3E3666;
+    margin-top: -70px;
+    margin-left: -150px;
+}
+
+.nav-actions .social-icon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-actions .social-icon img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    transition: transform 0.3s;
+}
+
+.nav-actions .social-icon img:hover {
+    transform: scale(1.2);
+}
+
+/* 햄버거 버튼 스타일 */
+.hamburger-button {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 25px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    left: 190px;
+    top: 10px;
+}
+
+.hamburger-button span {
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #3E3666;
+    border-radius: 2px;
+}
+
+.reading-glass {
+    position: relative;
+    left: 145px;
+    top: 10px;
+}
+
+/* 전체 드롭다운 스타일 */
+.expanded-menu {
+    position: absolute;
+    top: 123px;
+    left: 0;
+    width: 1377px;
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    z-index: 8;
+}
+
+.expanded-menu li {
+    list-style: none;
+    position: relative;
+    bottom: 40px;
+    left: 480px;
+}
+
+.Introduction-column, .Professor-column,
+.Academicguide, .Notice-column, 
+.Community-column {
+    position: relative;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    top: 20px;
+    color: #3E3666;
+}
+.Introduction-column {
+    right: 30px;
+}
+
+.Professor-column {
+    right: 30px;
+}
+
+.Notice-column {
+    left: 42px;
+}
+
+.Community-column {
+    left: 85px;
+}
+.dropdown-item {
+    margin-bottom: 17px;
+}
+
+.sns_text {
+    white-space: nowrap;
+}
+
+.outsideLink {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    left: 6px;
+}
+
+.NavDivider_1, .NavDivider_2, .NavDivider_3, 
+.NavDivider_4, .NavDivider_5, .NavDivider_6 {
+    width: 1px;
+    height: 200px;
+    position: relative;
+    bottom: 20px;
+    background-color: #c3c3c3;
+}
+
+.NavDivider_1 {
+    left: 464px;
+}
+
+.NavDivider_2 {
+    left: 470px;
+}
+
+.NavDivider_3 {
+    left: 480px;
+}
+
+.NavDivider_4 {
+    left: 530px;
+}
+
+.NavDivider_5 {
+    left: 570px;
+}
+
+.NavDivider_6 {
+    left: 600px;
+}
+
+.search-overlay {
+    position: absolute;
+    width: 1430px;
+    height: 350px;
+    top: 67px;
+    right: -106px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.search-input {
+    position: relative;
+    width: 500px;
+    height: 55px;
+    bottom: 130px;
+    border-color: #3E3666;
+    border-radius: 15px;
+    border-width: 1px;
+    text-indent: 35px;
+}
+
+.search-input::placeholder {
+    position: relative;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000 !important
+}
+
+.search-divider {
+    background-color: #000000;
+    position: relative;
+    width: 1px;
+    height: 34px;
+    bottom: 130px;
+    right: 80px
+}
+
+.search-glass {
+    position: relative;
+    bottom: 130px;
+    right: 60px;
+}
+.popular-search {
+    position: absolute;
+    left: 470px;
+    top: 95px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #3E3666;
+}
+.popular-text {
+    position: relative;
+    font-size: 26px;
+    bottom: 12px;
+}
+.popular-list {
+    list-style: none; /* 기본 목록 스타일 제거 */
+    padding: 0;
+    margin: 0;
+    font-family: 'Pretendard', sans-serif;
+    font-size: 14pt;
+    color: #000000; /* 글자 색상 */
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30px;
+    white-space: nowrap;
+  }
+
+.popular-list li {
+   display: flex;
+   align-items: center;
+   margin-bottom: 10px; /* 항목 간 간격 */
+   font-weight: 500;
+} 
+
+.popular-list .number {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    border: solid 2px #3E3666;
+    border-radius: 10%;
+    margin-right: 15px; /* 숫자와 텍스트 간 간격 */
+    font-size: 12pt;
+  }

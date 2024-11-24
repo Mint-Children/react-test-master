@@ -1,0 +1,84 @@
+.schedule {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.schedule-header {
+    display: flex;
+    justify-content: space-between; /* 제목과 날짜 바 좌우 정렬 */
+    align-items: center;
+}
+
+.date-bar {
+    display: flex;
+    justify-content: flex-start; /* 날짜 바를 왼쪽 정렬 */
+    align-items: center;
+    gap: 10px;
+    overflow-x: auto; /* 날짜가 많을 경우 스크롤 가능 */
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    white-space: nowrap;
+}
+
+.date-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+
+.date-item:hover {
+    background-color: #e0e0e0;
+}
+
+.date-item .day {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.date-item .label {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.active-date {
+    background-color: #00458a;
+    color: white;
+    font-weight: bold;
+}
+
+.schedule-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.schedule-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    width: calc(25% - 20px); /* 한 줄에 4개 표시 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.schedule-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.no-events {
+    font-size: 1.2rem;
+    color: #999;
+    margin: 20px 0;
+}
