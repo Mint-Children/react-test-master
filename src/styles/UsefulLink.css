@@ -1,0 +1,19 @@
+.useful-link {
+    background-color: #fff;
+    padding: 10px;
+  }
+
+.out_link {
+    position: relative;
+    list-style: none;
+    display: flex; 
+    gap: 20px; 
+    padding: 0;
+    margin: 0;
+    bottom: 90px;
+    margin-left: 75px;
+}
+.out_link img {
+    width: 300px;
+}
+

@@ -6,6 +6,7 @@ import NoticeBoard from "./components/NoticeBoard";
 import Schedule from "./components/Schedule";
 import "./App.css";
 import Footer from "./components/Footer";
+import UsefulLink from "./components/UsefulLink";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <NewsSection />
         <NoticeBoard />
         <Schedule />
+        <UsefulLink />
       </main>
       <Footer />
     </div>
